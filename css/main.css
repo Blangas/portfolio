@@ -1,0 +1,155 @@
+img {
+  width: 100%;
+}
+
+body {
+  margin: 0 5%;
+  padding: 0;
+  width: 90%;
+  height: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+header {
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: Extra-Light;
+  font-size: 1.2em;
+  color: #2d3c49;
+}
+
+.logo {
+  float: left;
+  height: 100px;
+  width: 100px;
+  margin: 10px 20px;
+  background:
+    url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHBhdGggZD0iTTQ2LjksMzIuMmMtMC41LDAuNC0xLDAuOS0xLjQsMS40Yy0xLjktMC4yLTMuOS0wLjMtNS44LTAuNWMtMi4zLTAuMi00LjctMC4zLTctMC40YzAuMS0xLjUsMC4yLTMsMC40LTQuNSBjMC4yLTIuNSwwLjMtNC45LDAuNS03LjRjMC4xLTIuNSwwLjUtNC45LDAuMy03LjRjLTAuMi0yLjUtMC41LTQuOS0xLjMtNy40aC0wLjNjLTAuOCwyLjUtMS4xLDQuOS0xLjQsNy40IGMtMC4yLDIuNSwwLjIsNC45LDAuMyw3LjRjMC4xLDIuNSwwLjMsNC45LDAuNSw3LjRjMC4xLDEuNSwwLjIsMywwLjMsNC41Yy0yLjMtMC4xLTQuNy0wLjUtNy0wLjNjLTEuNSwwLjEtMi45LDAuMy00LjQsMC42IGMwLjItMi4yLDAuNC00LjMsMC4yLTYuNWMtMC4yLTIuNS0wLjUtNC45LTEuMy03LjRIMTljLTAuOCwyLjUtMS4xLDQuOS0xLjQsNy40Yy0wLjIsMi40LDAuMSw0LjcsMC4zLDcuMSBjLTAuMiwwLjEtMC4zLDAuMS0wLjUsMC4xdjAuM2MwLjIsMC4xLDAuNCwwLjEsMC42LDAuMmMwLjEsMi40LDAuMyw0LjcsMC40LDcuMWMwLjIsMi41LDAuNCw0LjksMC42LDcuNGgwLjMgYzAuMi0yLjUsMC40LTQuOSwwLjYtNy40YzAuMi0yLjIsMC4zLTQuMywwLjQtNi41YzEuNSwwLjMsMywwLjUsNC41LDAuNmMyLjQsMC4yLDQuOC0wLjEsNy4yLTAuM2MwLDAuMiwwLDAuMywwLDAuNWgwLjMgYzAtMC4yLDAtMC40LDAtMC41YzIuNC0wLjEsNC44LTAuMyw3LjItMC40YzEuOC0wLjEsMy41LTAuMyw1LjMtMC40Yy0xLjEsMS4yLTIsMi41LTIuOSwzLjdjLTEuNCwyLTIuMyw0LjQtMy40LDYuNiBjLTEuMSwyLjItMi4yLDQuNC0zLjMsNi42Yy0xLjEsMi4yLTIuMiw0LjUtMy4yLDYuN2wwLjMsMC4yYzEuNC0yLDIuOC00LjEsNC4yLTYuMWMxLjQtMi4xLDIuOC00LjEsNC4xLTYuMmMxLjMtMi4xLDIuOS00LDQtNi4zIGMwLjgtMS43LDEuNi0zLjUsMi4xLTUuNGMwLjEsMCwwLjIsMCwwLjMsMHYtMC4zYy0wLjEsMC0wLjEsMC0wLjIsMGMwLjEtMC40LDAuMi0wLjksMC4zLTEuNEw0Ni45LDMyLjJ6Ii8+PHBhdGggZD0iTTYyLDMuOWwtMS43LDBjLTAuMS0wLjYtMC4xLTEuMi0wLjItMS45aC0wLjJjLTAuMSwwLjYtMC4xLDEuMi0wLjIsMS44TDQ3LDMuNUwzMiwzLjJDMjcsMy4xLDIyLDIuOSwxNywzIEMxMi44LDMuMSw4LjUsMy4zLDQuMywzLjdDNC4yLDMuMSw0LjIsMi42LDQuMSwySDMuOUMzLjgsMi42LDMuOCwzLjIsMy43LDMuN0MzLjIsMy44LDIuNiwzLjgsMiwzLjl2MC4yYzAuNiwwLjEsMS4xLDAuMSwxLjcsMC4yIEMzLjMsOC41LDMuMSwxMi44LDMsMTdjLTAuMSw1LDAuMSwxMCwwLjIsMTVsMC4zLDE1bDAuMywxMi43Yy0wLjYsMC4xLTEuMiwwLjEtMS44LDAuMnYwLjJjMC42LDAuMSwxLjIsMC4xLDEuOSwwLjJsMCwxLjdoMC4yIGwwLTEuN2M0LjMsMC40LDguNiwwLjYsMTIuOSwwLjdjNSwwLjEsMTAtMC4xLDE1LTAuMmwxNS0wLjNsMTIuOS0wLjNsMCwxLjhoMC4ybDAtMS45bDEuOSwwdi0wLjJsLTEuOCwwTDYwLjUsNDdsMC4zLTE1IGMwLjEtNSwwLjMtMTAsMC4yLTE1Yy0wLjEtNC4zLTAuMy04LjYtMC43LTEyLjlsMS43LDBWMy45eiBNNTkuMiwzMmwwLjMsMTVsMC4zLDEyLjhMNDcsNTkuNWwtMTUtMC4zYy01LTAuMS0xMC0wLjMtMTUtMC4yIGMtNC4zLDAuMS04LjYsMC4zLTEyLjgsMC43TDQuNSw0N2wwLjMtMTVDNC45LDI3LDUuMSwyMiw1LDE3QzQuOSwxMi44LDQuNyw4LjUsNC4zLDQuM0M4LjUsNC43LDEyLjgsNC45LDE3LDVjNSwwLjEsMTAtMC4xLDE1LTAuMiBsMTUtMC4zbDEyLjctMC4zQzU5LjMsOC40LDU5LjEsMTIuNyw1OSwxN0M1OC45LDIyLDU5LjEsMjcsNTkuMiwzMnoiLz48L3N2Zz4=) no-repeat center center;
+}
+.logo:hover {
+  filter: drop-shadow(2px 2px 2px gray);
+  -webkit-filter: drop-shadow(2px 2px gray);
+}
+
+@keyframes hr-apears {
+  from {
+    background-image: linear-gradient(to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0));
+  }
+  to {
+    background-image: linear-gradient(to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.85),
+    rgba(0, 0, 0, 0));
+  }
+}
+
+hr {
+  height: 2px;
+  border: none;
+  animation: hr-apears 5s linear;
+  background-image: linear-gradient(to right,
+  rgba(0, 0, 0, 0),
+  rgba(0, 0, 0, 0.85),
+  rgba(0, 0, 0, 0));
+}
+
+hr:hover {
+
+}
+
+h2 {
+  font-weight: 400;
+  color: #7d97ad;
+  font-size: 2em;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.box {
+  width: 33%;
+  margin: 1em;
+  text-align: center;
+  flex: 1 0 0;
+}
+
+.box:first-of-type {
+  margin-left: 0;
+}
+
+.box:last-of-type {
+  margin-right: 0;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #2d3c49;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px gray;
+}
+
+h3 {
+  font-size: 2em;
+  margin: 0;
+}
+
+p {
+  font-size: 0.7em;
+  margin: 0;
+  overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    margin: 0.4em;
+  }
+
+  h4 {
+    margin: 0;
+  }
+
+  .box {
+    width: 100%;
+    margin: 1em 0;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+  .container {
+    justify-content: center;
+  }
+
+  .black-rat, .brown-rat {
+    width: 50%;
+    max-width: 50%;
+  }
+
+  .pixel-art {
+    max-width: 75%;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  body {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
